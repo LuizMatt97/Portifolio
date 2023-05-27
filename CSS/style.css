@@ -1,43 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 body{
-    font-family: 'Times New Roman', Times, serif;
-    background-image: url(../fotos/background.webp);
+    
+    background-image: url(../img/background.webp);
     background-size:cover;
     background-repeat:no-repeat;
-    text-align: center;
-}
-
-
-header{
-    font-size: 28px;
-}
-
-.subtitulos{
-    font-size: 30px;
-    margin-top: 18px;
-    margin-bottom: 35px;
-    border: 2px solid;
-    border-radius: 10px;
-    margin-left: 40%;
-    margin-right: 40%;
     
 }
-.paragrafos{
-    font-size: 20px;
+/* TODO O PORTIFÓLIO */
+#port-container{
+    text-align: center;
+    
+
 }
 
-#contatos{
-    font-size: 24px;
-    border: 2px solid;
-    border-radius: 8px;
-    margin-left: 45%;
-    margin-right: 45%;
-}
-
-#email{ 
-    font-size: 16px;
-    font-family: "Fira", sans-serif;
+/* -------- HEADER --------- */
+#name-about{
+    gap: 2rem;
     display: flex;
     justify-content: center;
-    align-items:center;
+    align-items: center;
+    margin-top: 4rem;
+    margin-bottom: 3rem;
 }
 
+ /* NOME */
+#name-about h1{
+    text-transform: uppercase;
+}
+
+/* BOTÃO VOLTAR */
+#name-about a{
+    text-decoration: none;
+    background-color: transparent;
+    width: 6rem;
+    border-radius: 2px;
+    color: black;
+    font-weight: bold;
+    box-shadow: 1px 1px 4px;
+}
+
+#name-about a:hover{
+    box-shadow: 2px 2px 6px;
+    
+}
+
+/* -------------- main -------------------*/
+
+#text{
+    background-color: rgba(0, 0, 0, 0.068);
+    padding: 1.5rem;
+    border-radius: 6px;
+    font-size: 1.3rem;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-bottom: 3rem;
+}
+
+
+
+/* ICONS TEC */
+#icons-tec-container{
+    display: flex;
+    margin-bottom: 4rem;
+    justify-content: center;
+    margin-top: 2rem;
+
+}
+
+#icons-tec-container img{
+    width: 90px;
+}
+
+
+
+#icons-tec-container p{
+    font-weight: bold;
+}
+
+/* ----------- footer ------------ */
+
+/* contatos + icons */
+#contatos-container{
+    padding: 1.5rem;
+    background-color: rgba(0, 0, 0, 0.068);
+    width: 18rem;
+    margin: auto;
+    border-radius: 8px;
+}
+
+#contatos-container h3{
+    font-size: 1.5rem;
+    margin-bottom: 0.9rem;
+}
+
+#contatos-container img{
+   width: 35px;
+
+}
+
+#icons-container img:hover{
+    width: 40px;
+    transition: 0.3s;
+    
+}
+
+
+/* ------------ RESPOSIVIDADE  -------------- */
+
+@media(max-width: 450px){
+    #name-about {
+        margin-right: 1.6rem;
+
+    }
+
+    #text{
+         
+        
+    }
+
+    .icon img {
+        width: 80px;
+    }
+
+    #contatos-container{
+       
+       width: 100%;
+      
+    }
+}
