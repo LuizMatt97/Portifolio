@@ -1,1 +1,1 @@
-Vários ajustes a serem feitos ainda e futuramente será implementado utilizando react.
+Essa é uma verSão teste, vários ajustes a serem feitos ainda e implementações. Futuramente será implementado utilizando react.
