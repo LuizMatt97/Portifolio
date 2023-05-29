@@ -29,11 +29,6 @@ body{
     margin-bottom: 3rem;
 }
 
- /* NOME */
-#name-about h1{
-    text-transform: uppercase;
-}
-
 /* BOTÃO VOLTAR */
 #name-about a{
     text-decoration: none;
@@ -58,10 +53,9 @@ body{
     border-radius: 6px;
     font-size: 1.3rem;
     line-height: 2rem;
-    margin-bottom: 2rem;
     margin-right: 2rem;
     margin-left: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 5rem;
 }
 
 
@@ -71,7 +65,8 @@ body{
     display: flex;
     margin-bottom: 4rem;
     justify-content: center;
-    margin-top: 2rem;
+    margin-top: 1rem;
+    padding: 2rem;
 
 }
 
@@ -111,6 +106,12 @@ body{
     
 }
 
+#email{
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 5rem;
+    color: rgba(0, 0, 0, 0.288);
+}
 
 /* ------------ RESPOSIVIDADE  -------------- */
 
@@ -120,17 +121,17 @@ body{
 
     }
 
-    #text{
-         
-        
+    #title-tecs{
+        padding: 1rem;
     }
 
-    .icon img {
-        width: 80px;
+    #icons-tec-container {
+        padding: 1rem;
+        flex-wrap: wrap;
     }
+
 
     #contatos-container{
-       
        width: 100%;
       
     }

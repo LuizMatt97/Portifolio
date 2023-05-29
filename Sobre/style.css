@@ -82,7 +82,13 @@ body{
     
 }
 
-
+/* COPY */
+#email{
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 5rem;
+    color: rgba(0, 0, 0, 0.288);
+}
 
 /* ------ reponsividade -------- */
 
